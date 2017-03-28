@@ -8,9 +8,9 @@ Author: Ian Lainchbury
 Author URI: http://ianlainchbury.com
 */
 
-require_once ABSPATH.'wp-content/plugins/un-class-notification/lib/ics.php';
-require_once ABSPATH.'wp-content/plugins/un-class-notification/templates/emails/email-header.php';
-require_once ABSPATH.'wp-content/plugins/un-class-notification/templates/emails/email-footer.php';
+require_once ABSPATH.'wp-content/plugins/universibly-class-notification/lib/ics.php';
+require_once ABSPATH.'wp-content/plugins/universibly-class-notification/templates/emails/email-header.php';
+require_once ABSPATH.'wp-content/plugins/universibly-class-notification/templates/emails/email-footer.php';
 
 // Set the mail type to html
 apply_filters( 'wp_mail_content_type', 'text/html' );
