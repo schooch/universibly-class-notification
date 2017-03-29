@@ -67,7 +67,7 @@ function universibly_payment_complete( $order_id ){
         ));
 
         $ics_message = $ics->to_string();
-        $ics_file = ABSPATH.'wp-content/plugins/un-class-notification/lib/class.ics';
+        $ics_file = ABSPATH.'wp-content/plugins/universibly-class-notification/lib/class.ics';
 
         $myfile = fopen( $ics_file , "w") or die(print_r(error_get_last(),true));
         $txt = $ics_message;
